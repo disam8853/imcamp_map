@@ -1,0 +1,21 @@
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+.map {
+	width: 100vmax;
+	position: relative;
+}
+
+.map img{
+	width: 100vmax;
+
+}
+
+.links {
+	position: absolute;
+	top: 2.5vmax;
+	left: 2vmax;
+	font-size: 2.7vmax;
+}
+
