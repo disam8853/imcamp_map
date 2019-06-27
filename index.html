@@ -9,11 +9,16 @@
   <!-- gogole fonts -->
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&amp;subset=chinese-traditional" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <!-- jquery -->
 </head>
 
 <body>
   <div class="map">
     <img src="img/map.png" alt="">
+    <button id="btn1" class="btn" type="button" >click it</button>
+    <div id="team1" class="team"><img src="img/teams/Team1/bg.png" alt="">
+    <button id="btnback" class="btn" type="button" onclick="goback()">go back</button>
+    </div>
     <div class="links">
       <div class="schedule">
         行程表
@@ -26,6 +31,10 @@
       </div>
     </div>
   </div>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 
