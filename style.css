@@ -31,7 +31,9 @@ body {
 }
 
 .nav {
+	position: absolute;
 	z-index: 7122;
+	top: 0px;
 }
 
 
@@ -49,13 +51,42 @@ body {
 	position: absolute;
 	width: 100vmax;
 	height: 50vmax;
-	top: 1vmax;
+	top: 1px;
 	display: none;
-	z-index: 3;
+	z-index: 7;
 }
 
+#btnback {
+	z-index: 8;
+}
 .teamimg {
 	position: absolute;
-	top: 8vmax;
-	z-index: 3;
+	top: 2vmax;
+	z-index: 7;
+}
+
+.abi {
+	position: absolute;
+	z-index: 8;
+}
+.abi45 {
+	transform: rotate(-0.125turn);
+}
+.abi90 {
+	transform: rotate(-0.25turn);
+}
+.abi135 {
+	transform: rotate(-0.375turn);
+}
+.abi180 {
+	transform: rotate(-0.5turn);
+}
+.abi225 {
+	transform: rotate(-0.625turn);
+}
+.abi270 {
+	transform: rotate(-0.75turn);
+}
+.abi315 {
+	transform: rotate(-0.875turn);
 }

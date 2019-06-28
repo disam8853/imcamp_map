@@ -8,8 +8,10 @@ function popup(index) {
     currentShow = index;
     if(show[index]) {
         $('#team'+index).hide();
+        $('#mapimg').show();
     } else {
         $('#team'+index).show();
+        $('#mapimg').hide();
     }
     show[index] = !show[index];
 }
@@ -17,6 +19,7 @@ function popup(index) {
 function goback() {
     if(currentShow != -1) {
         $("#team"+currentShow).hide();
+        $('#mapimg').show();
         show[currentShow] = false;
     }
     currentShow = -1;
