@@ -7,34 +7,37 @@
   <!-- normalize.css -->
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <!-- gogole fonts -->
+
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&amp;subset=chinese-traditional" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <!-- jquery -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">  
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
 </head>
 
 <body>
   <div class="map">
+    <nav class="nav flex-column">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">三</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">行程表</a>
+              <a class="dropdown-item" href="#">小隊呈現</a>
+              <a class="dropdown-item" href="#">Story</a>
+              <div class="dropdown-divider"></div>
+            </div>
+          </li>
+    </nav>
     <img src="img/map.png" alt="">
-    <button id="btn1" class="btn" type="button" >click it</button>
-    <div id="team1" class="team"><img src="img/teams/Team1/bg.png" alt="">
+    <button id="btn1" class="btn btn-dark btn-circle-preset" type="button" >jizz
+    </button>
+    <div id="team1" class="team"><img class="teamimg" src="img/teams/Team1/bg.png" alt="">
     <button id="btnback" class="btn" type="button" onclick="goback()">go back</button>
     </div>
-    <div class="links">
-      <div class="schedule">
-        行程表
-      </div>
-      <div class="present_info">
-        小隊呈現
-      </div>
-      <div class="camp">
-        營包
-      </div>
-    </div>
   </div>
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+  
   <script src="script.js"></script>
 </body>
 

@@ -21,16 +21,38 @@ body {
 
 .btn {
 	position: absolute;
-
 }
 #btnback {
 	top: 70vmax;
 	left: 90vmax;
 }
+
+.nav {
+	z-index: 7122;
+}
+
+.btn-oblong {border-radius: 30px 30px 30px 30px;}
+
+.btn-circle-preset {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 15px;
+}
+
 .team {
 	position: absolute;
 	width: 100vmax;
 	height: 50vmax;
-	top: 1vmax;
+	top: 8vmax;
 	display: none;
+	z-index: -1;
+}
+
+.teamimg {
+	top: 8vmax;
+	z-index: inherit;
 }

@@ -14,11 +14,6 @@ function popup(index) {
     show[index] = !show[index];
 }
 
-function wrp(i) {
-    return ()=>{
-        popup(i);
-    };
-}
 function goback() {
     if(currentShow != -1) {
         $("#team"+currentShow).hide();
@@ -27,5 +22,5 @@ function goback() {
     currentShow = -1;
 }
 for(let i=1;i<=1;++i) {
-    $("#btn"+i).on("click",wrp(i));
+    $("#btn"+i).on("click",()=>{popup(i)});
 }
