@@ -1,18 +1,21 @@
 body {
+	display: fullscreen;
 	font-family: 'Noto Sans TC', sans-serif;
 	z-index: 7120;
 }
 
 .map {
-	width: 100vmax;
-	position: relative;
+	position: absolute;
 }
 
-.map img{
-	width: 100vmax;
-
+img {
+	width: 97vw;
+	height: 97vh;
 }
-
+.full {
+	width: 100vw;
+	height: 100vh;
+}
 .links {
 	position: absolute;
 	top: 2.5vmax;
@@ -26,14 +29,16 @@ body {
 }
 
 #btnback {
-	top: 70vmax;
+	position: absolute;
+	display: none;
+	top: 91vh;
 	left: 90vmax;
+	z-index: 8;
 }
 
 .nav {
 	position: absolute;
 	z-index: 7122;
-	top: 0px;
 }
 
 
@@ -44,29 +49,28 @@ body {
 	padding: 6px 0;
 	font-size: 12px;
 	line-height: 1.428571429;
-	border-radius: 15px;
+	border-radius: 13px;
 }
+
 
 .team {
 	position: absolute;
-	width: 100vmax;
-	height: 50vmax;
-	top: 1px;
 	display: none;
 	z-index: 7;
 }
 
-#btnback {
-	z-index: 8;
-}
 .teamimg {
 	position: absolute;
-	top: 2vmax;
+	display: block;
 	z-index: 7;
 }
 
 .abi {
 	position: absolute;
+	max-width: 2.7%;
+	left: 64.4vmax;
+	top: 46.3vmax;
+	height: auto;
 	z-index: 8;
 }
 .abi45 {
@@ -89,4 +93,23 @@ body {
 }
 .abi315 {
 	transform: rotate(-0.875turn);
+}
+
+
+.ifCon {
+	display: none;
+}
+
+.frame {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+
+#egg{
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+	top: 71vh;	
+	left: 22vw;
 }

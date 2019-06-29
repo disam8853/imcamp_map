@@ -15,32 +15,44 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+  <!-- hide address bar -->
 </head>
 
 <body>
-  <div class="map">
+  <nav class="nav flex-column">
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">三</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#" onclick="showup('#scheduleCon')">行程表</a>
+            <a class="dropdown-item" href="#">小隊呈現</a>
+            <a class="dropdown-item" href="#">Story</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+  </nav>
+  <div id="map" class="map full">
     <img id="mapimg" src="img/map.png" alt="">
-    <button id="btn1" class="btn btn-dark btn-circle-preset" type="button" >jizz
-    </button>
-    <div id="team1" class="team">
-      <img class="teamimg" src="img/teams/Team1/bg.png" alt="">
-      <button id="btnback" class="btn" type="button" onclick="goback()">go back</button>
-    </div>
-    <progress class="abi1 abi abi315" value="22" max="100"></progress>
-    
-    <nav class="nav flex-column">
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">三</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">行程表</a>
-              <a class="dropdown-item" href="#">小隊呈現</a>
-              <a class="dropdown-item" href="#">Story</a>
-              <div class="dropdown-divider"></div>
-            </div>
-          </li>
-    </nav>
+    <button id="btn1" class="btn btn-danger btn-circle-preset" type="button" >!</button>
+    <button id="btn2" class="btn btn-danger btn-circle-preset" type="button" >!</button>
+    <button id="btn3" class="btn btn-danger btn-circle-preset" type="button" >!</button>
+    <button id="btn4" class="btn btn-danger btn-circle-preset" type="button" >!</button>
+    <button id="btn5" class="btn btn-danger btn-circle-preset" type="button" >!</button>
+    <button id="btn6" class="btn btn-danger btn-circle-preset" type="button" >!</button>
+    <button id="btn7" class="btn btn-danger btn-circle-preset" type="button" >!</button>
+    <button id="btn8" class="btn btn-danger btn-circle-preset" type="button" >!</button>
+    <button id="btn9" class="btn btn-danger btn-circle-preset" type="button" >!</button>
+    <button id="btn10" class="btn btn-danger btn-circle-preset" type="button" >!</button>
+    <button id="egg" class="btn btn-danger btn-circle-preset" type="button" onclick="tell()"></button>
+
   </div>
-  
+  <div id="scheduleCon" class="ifCon">
+      <iframe id="schedule" class="frame full" src="schedule" ></iframe>
+    </div>
+  <div id="team" class="team">
+    <img class="teamimg" src="img/teams/Team1/bg.png" alt="">
+  </div>
+
+  <button id="btnback" class="btn btn-dark" type="button" onclick="goback()">go back</button>
   <script src="script.js"></script>
 </body>
 

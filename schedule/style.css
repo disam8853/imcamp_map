@@ -1,0 +1,13 @@
+.page-container {
+    margin: auto;
+}
+
+#content {
+    position: relative;
+    display: block;
+    line-height: 2.8rem;
+}
+
+.container {
+    
+}
