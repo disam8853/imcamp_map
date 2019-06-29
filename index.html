@@ -23,9 +23,9 @@
       <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">三</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#" onclick="showup('#scheduleCon')">行程表</a>
+            <a class="dropdown-item" href="#" onclick="showIframe('schedule', 'schedule')">行程表</a>
             <a class="dropdown-item" href="#">小隊呈現</a>
-            <a class="dropdown-item" href="#">Story</a>
+            <a class="dropdown-item" href="#" onclick="showIframe('story', 'story')">Story</a>
             <div class="dropdown-divider"></div>
           </div>
         </li>
@@ -46,10 +46,13 @@
 
   </div>
   <div id="scheduleCon" class="ifCon">
-      <iframe id="schedule" class="frame full" src="schedule" ></iframe>
+    <iframe id="schedule" class="frame full" loading="lazy" src="schedule" ></iframe>
+  </div>
+  <div id="storyCon" class="ifCon">
+      <iframe id="story" class="frame full" loading="lazy" src="story" ></iframe>
     </div>
   <div id="team" class="team">
-    <img class="teamimg" src="img/teams/Team1/bg.png" alt="">
+    <img class="teamimg" src="" alt="">
   </div>
 
   <button id="btnback" class="btn btn-dark" type="button" onclick="goback()">go back</button>
