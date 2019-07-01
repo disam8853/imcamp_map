@@ -109,8 +109,9 @@ img {
 
 
 #egg{
-	background-color: #FFFFFF;
-	border-color: #FFFFFF;
+	background-color: rgb(235, 23, 69);
+	border-color: rgb(235, 23, 69);
 	top: 71vh;	
 	left: 22vw;
+	opacity: 0.05;
 }

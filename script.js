@@ -3,6 +3,7 @@ var lefts=[14, 13,  7, 33, 47, 52, 66, 76, 71, 83];
 
 var One = "V3pJeUxESTNMREkzTERRd0xETTNMRFF3TERNekxETXpMaklzTXpjc016Y3VNMTA9";
 var Piece = "V3pZc09DdzBMRFEyTERRNExEUTRMalVzTnpFc056UXNOekF1Tnl3M05GMD0=";
+var 鑰匙 = "基礎六四";
 
 var defaultShow = '#map';
 var currentShow = defaultShow;
