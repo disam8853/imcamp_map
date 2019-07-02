@@ -15,6 +15,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <!-- hide address bar -->
+  <?php
+    include("addstyle.php");
+  ?>
 </head>
 
 <body>
@@ -26,12 +29,13 @@
             <a class="dropdown-item" href="#" onclick="showIframe('inbou', 'inbou')">小隊呈現</a>
             <a class="dropdown-item" href="#" onclick="showIframe('story', 'story')">Story</a>
             <a class="dropdown-item" href="https://ntuimcampcourse.herokuapp.com" >選課網站</a>
+            <a class="dropdown-item" href="#" onclick="showIframe('freestyle', 'freestyle')">Freestyle?</a>
             <div class="dropdown-divider"></div>
           </div>
         </li>
   </nav>
   <div id="map" class="map full">
-    <img id="mapimg" src="img/map.png" alt="">
+    <img id="mapimg" src="img/map-nbg.png" alt="">
     <button id="btn1" class="btn btn-danger btn-circle-preset glow" type="button">!</button>
     <button id="btn2" class="btn btn-danger btn-circle-preset glow" type="button">!</button>
     <button id="btn3" class="btn btn-danger btn-circle-preset glow" type="button">!</button>
@@ -51,8 +55,11 @@
     <iframe id="story" class="frame full" loading="lazy" src="story" ></iframe>
   </div>
   <div id="inbouCon" class="ifCon">
-      <iframe id="inbou" class="frame full" loading="lazy" src="inbou" ></iframe>
-    </div>
+    <iframe id="inbou" class="frame full" loading="lazy" src="inbou" ></iframe>
+  </div>
+  <div id="freestyleCon" class="ifCon">
+    <iframe id="freestyle" class="frame full" loading="lazy" src="freestyle" ></iframe>
+  </div>
   <div id="team" class="team">
     <img class="teamimg" src="" alt="">
   </div>

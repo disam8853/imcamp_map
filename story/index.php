@@ -17,6 +17,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
   <!-- hide address bar -->
+  <?php
+    include("../addstyle.php");
+  ?>
 </head>
 
 <body>
@@ -25,8 +28,10 @@
             <div id="list-example" class="list-group">
                 <a class="list-group-item list-group-item-action" href="#list-item-1">Ch 0</a>
                 <a class="list-group-item list-group-item-action" href="#list-item-2">Ch 1</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-3">Bonus I</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Another Story I</a>
                 <a class="list-group-item list-group-item-action" href="#list-item-4">Ch 10</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5">***系統提示***</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-6">Ch 11</a>
             </div>
         </div>
         <div class='col-8'>
@@ -48,6 +53,14 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 「想要我的 One Piece 嗎？想要的話可以全部給你，去找吧！我把所有的財寶都放在那裡了。」<br>
                 </p>
                 <h4 id="list-item-4">Chapter 10</h4>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科學家們繼續接受各種訓練，培養近代所需的邏輯、創意與勇氣，也都接觸了近代才出現的顯學——程式設計，生活總算穩定下來，他們各自都決定執行任務失敗後的第二任務，也就是與同伴會合，並偷偷查看協會幹員的電腦，成功得知合適的集合地點，也提升了靈敏度。<br>
+                </p>
+                <h4 id="list-item-5">***系統提示***</h4>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;『你有 freestyle 嗎？去創造屬於你的世界地圖吧！』<br>@@@@ 已學習 css 技能，解鎖 freestyle 功能。@@@@<br> 
+                </p>
+                <h4 id="list-item-6">Chapter 11</h4>
                 <p>
                     付費解鎖 or 參加資管營！
                 </p>
