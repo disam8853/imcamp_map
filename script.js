@@ -5,6 +5,10 @@ var One = "V3pJeUxESTNMREkzTERRd0xETTNMRFF3TERNekxETXpMaklzTXpjc016Y3VNMTA9";
 var Piece = "V3pZc09DdzBMRFEyTERRNExEUTRMalVzTnpFc056UXNOekF1Tnl3M05GMD0=";
 var 鑰匙 = "基礎六四";
 
+var tops = JSON.parse(window.atob(window.atob(One)));
+var lefts = JSON.parse(window.atob(window.atob(Piece)));
+
+
 var defaultShow = '#map';
 var currentShow = defaultShow;
 function showTeam(i) {

@@ -32,6 +32,8 @@
                 <a class="list-group-item list-group-item-action" href="#list-item-4">Ch 10</a>
                 <a class="list-group-item list-group-item-action" href="#list-item-5">***系統提示***</a>
                 <a class="list-group-item list-group-item-action" href="#list-item-6">Ch 11</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-7">Another Story II</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-8">Ch 100</a>
             </div>
         </div>
         <div class='col-8'>
@@ -61,6 +63,14 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;『你有 freestyle 嗎？去創造屬於你的世界地圖吧！』<br>@@@@ 已學習 css 技能，解鎖 freestyle 功能。@@@@<br> 
                 </p>
                 <h4 id="list-item-6">Chapter 11</h4>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科學家們接觸到了現代的企業，更加了解了這個近代社會，也瞭解了近代可以透過不同手段前往遙遠的地點，為了籌措可以旅費，他們利用無與倫比的才智與運氣在賭場發大財。<br>
+                </p>
+                <h4 id="list-item-7">Another Story II</h4>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;『這看起來好 base64base64，是命運的指引？』<br>
+                </p>
+                <h4 id="list-item-8">Chapter 100</h4>
                 <p>
                     付費解鎖 or 參加資管營！
                 </p>
