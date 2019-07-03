@@ -29,7 +29,7 @@
         <div id='main' class='col-8'>
             <form>
                 <div class="form-group">
-                    <label for="freestyle">你的 style 夠酷嗎? 讓 Worldmap 變成你的 style !</label>
+                    <label for="freestyle">你的 style 夠酷嗎? 讓 Worldmap 變成你的 style !(記得重新整理！)</label>
                     <input name="style" type="text" class="form-control" id="freestyle" aria-describedby="" placeholder="background-color:white;">
                     <small id="style" class="form-text text-muted">Though I merely insert your style into body, the sky is the limit.</small>
                 </div>

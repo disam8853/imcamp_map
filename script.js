@@ -12,7 +12,7 @@ var lefts = JSON.parse(window.atob(window.atob(Piece)));
 var defaultShow = '#map';
 var currentShow = defaultShow;
 function showTeam(i) {
-    $('.teamimg').attr('src', 'img/teams/'+i+'.png');
+    $('.teamimg').attr('src', 'img/teams/Team'+i+'.png');
     showup('#team');
 }
 function showIframe(id,src) {
