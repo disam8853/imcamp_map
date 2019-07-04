@@ -67,8 +67,8 @@ var now = Date.now();
 if(now > endTime) now = endTime;
 var po = (now - startTime)/(endTime - startTime);
 for(let i=1;i<=10;++i) {
-    let tmpt = tops[i-1] + (ft-tops[i-1])*po + (Math.random()*15+8)*(1-po);
-    let tmpl = lefts[i-1] + (fl-lefts[i-1])*po + (Math.random()*7+3)*(1-po);
+    let tmpt = tops[i-1] + (ft-tops[i-1])*po + (7 - Math.random()*14)*(1-po);
+    let tmpl = lefts[i-1] + (fl-lefts[i-1])*po + (4 -Math.random()*8)*(1-po);
     tmpt = tmpt.toFixed(3);
     tmpl = tmpl.toFixed(3);
     console.log(tmpt, tmpl);
