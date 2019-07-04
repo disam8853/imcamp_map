@@ -39,7 +39,27 @@ function goback() {
 //     $('#btn'+i).on('click',()=>{showTeam(i)});
 // }
 var talk = 0;
+var QQ = ['我是 worldma 製作人 eethan1',
+'感謝美宣 cphuamao 和選課網站製作人 disam8853 和 keylin1999',
+'成功撐起危急的網站支援',
+'有在關注的人應該注意到，這是個隨著營隊成長的網站',
+'一個不會寫前端的人從"幹你 disam8853 我不想寫前端QQ"到在想出好玩的點子後越玩越開心',
+'希望你們也喜歡，在ˊ之後學習資訊或是任何的路上 have fun',
+'明天我有臨時一些事不能幫忙你們的小隊呈現',
+'祝你們留下一個不會是最完美的，但最好玩的作品',
+'> <']
+function tell2(){
+    if(talk >= QQ.length+88){
+        alert("林俊逸");
+    }else if(talk >= QQ.length){
+        alert("88888888")
+    }else{
+        alert(QQ[talk])
+    }
+    talk += 1;
+}
 function tell() {
+    
     alert("Find your path");
     return;
     if(talk==0)

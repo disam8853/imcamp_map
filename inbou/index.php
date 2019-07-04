@@ -39,11 +39,17 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然而舊金山機場都一直在播使人平靜的音樂與冠雄管理學控制著員工，這招無法使用，導致科學家仍只能靠傳送。<br>
                     <br>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科學家學習這些新技術中發生了什麼事嗎？<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;他第一堂課學了機器學習，超猛，剩下的東西讓機器幫他學習就好，XGBOOOOOOOST! <br>                     
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;他第一堂課學了機器學習，超猛，剩下的東西讓機器幫他學習就好，XGBOOOOOOOST! <br>  
+                     
+                    
                 </p>
                 <h4 id="list-item-2">Command II</h4>
                 <p>
-                    Have Fun!
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;請用任何你在這段期間學到、體驗過的任何經驗與技術描繪並敘述科學家的形象，可與先前問題合併，與先前問題合計10分鐘內的呈現長度 <br>                  
+                </p>
+                <h4 id="list-item-2">exit(0)</h4>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(window.atob('VGhhbmtzIGZvciBwYXJ0aWNpcGF0aW5'));
+                <p>
                 </p>
             </div>
         </div>
