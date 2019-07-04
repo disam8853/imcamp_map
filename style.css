@@ -43,12 +43,12 @@ img {
 
 
 .btn-circle-preset {
-	width: 30px;
-	height: 30px;
+	width: 14px;
+	height: 14px;
 	text-align: center;
 	padding: 6px 0;
-	font-size: 12px;
-	line-height: 1.428571429;
+	font-size: 11px;
+	line-height: 0;
 	border-radius: 13px;
 }
 
@@ -137,24 +137,24 @@ img {
   }
   @-webkit-keyframes glowing {
 	0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
-	50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+	50% { background-color: #FF0000; -webkit-box-shadow: 0 0 20px #FF0000; }
 	100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
   }
   
   @-moz-keyframes glowing {
 	0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
-	50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+	50% { background-color: #FF0000; -moz-box-shadow: 0 0 20px #FF0000; }
 	100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
   }
   
   @-o-keyframes glowing {
 	0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-	50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+	50% { background-color: #FF0000; box-shadow: 0 0 20px #FF0000; }
 	100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
   }
   
   @keyframes glowing {
 	0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-	50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+	50% { background-color: #FF0000; box-shadow: 0 0 20px #FF0000; }
 	100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
   }

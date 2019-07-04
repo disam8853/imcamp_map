@@ -8,16 +8,12 @@ var 鑰匙 = "基礎六四";
 var tops = JSON.parse(window.atob(window.atob(One)));
 var lefts = JSON.parse(window.atob(window.atob(Piece)));
 
-var ft = 41;
-var fl = 38;
+var ft = 44;
+var fl = 38.4;
 
 
 var defaultShow = '#map';
 var currentShow = defaultShow;
-function showTeam(i) {
-    $('.teamimg').attr('src', 'img/teams/Team'+i+'.png');
-    showup('#team');
-}
 function showIframe(id,src) {
     // $(id).attr('src', src);
     showup('#'+id+'Con');
@@ -63,12 +59,25 @@ $(window).click(function() {
 
 var startTime = Number((new Date('2019','6','4','12')));
 var endTime = Number((new Date('2019','6','4','17','50')));
+// var endTime = Date.now();
 var now = Date.now();
 if(now > endTime) now = endTime;
 var po = (now - startTime)/(endTime - startTime);
+var r = 4;
+
+function showTeam(i) {
+    if(now >= endTime){
+        $('.teamimg').attr('src', 'img/teams/Team'+i+'s.png');
+    }else{
+        $('.teamimg').attr('src', 'img/teams/Team'+i+'.png');
+    }
+    
+    showup('#team');
+}
+
 for(let i=1;i<=10;++i) {
-    let tmpt = tops[i-1] + (ft-tops[i-1])*po + (7 - Math.random()*14)*(1-po);
-    let tmpl = lefts[i-1] + (fl-lefts[i-1])*po + (4 -Math.random()*8)*(1-po);
+    let tmpt = tops[i-1] + (ft-tops[i-1])*po + (7 - Math.random()*14)*(1-po) + r*Math.sin(Math.PI*i/5);
+    let tmpl = lefts[i-1] + (fl-lefts[i-1])*po + (4 -Math.random()*8)*(1-po) + r*Math.cos(Math.PI*i/5);
     tmpt = tmpt.toFixed(3);
     tmpl = tmpl.toFixed(3);
     console.log(tmpt, tmpl);
