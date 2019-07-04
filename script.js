@@ -8,6 +8,9 @@ var 鑰匙 = "基礎六四";
 var tops = JSON.parse(window.atob(window.atob(One)));
 var lefts = JSON.parse(window.atob(window.atob(Piece)));
 
+var ft = 41;
+var fl = 38;
+
 
 var defaultShow = '#map';
 var currentShow = defaultShow;
@@ -34,13 +37,15 @@ function goback() {
     }
     currentShow = defaultShow;
 }
-for(let i=1;i<=10;++i) {
-    $('#btn'+i).css('top', tops[i-1]+'vh');
-    $('#btn'+i).css('left', lefts[i-1]+'vw');
-    $('#btn'+i).on('click',()=>{showTeam(i)});
-}
+// for(let i=1;i<=10;++i) {
+//     $('#btn'+i).css('top', tops[i-1]+'vh');
+//     $('#btn'+i).css('left', lefts[i-1]+'vw');
+//     $('#btn'+i).on('click',()=>{showTeam(i)});
+// }
 var talk = 0;
 function tell() {
+    alert("Find your path");
+    return;
     if(talk==0)
         alert("Does One Piece really exist?");
     else if(talk>=1 && talk <=3)
@@ -51,6 +56,23 @@ function tell() {
         alert("Why not take a look at 丁@v@5ㄈ尺1p+?");
     talk = talk +1;
 }
+
 $(window).click(function() {
     console.log('jizz');
 });
+
+var startTime = Number((new Date('2019','6','4','12')));
+var endTime = Number((new Date('2019','6','4','17','50')));
+var now = Date.now();
+if(now > endTime) now = endTime;
+var po = (now - startTime)/(endTime - startTime);
+for(let i=1;i<=10;++i) {
+    let tmpt = tops[i-1] + (ft-tops[i-1])*po + (Math.random()*15+8)*(1-po);
+    let tmpl = lefts[i-1] + (fl-lefts[i-1])*po + (Math.random()*7+3)*(1-po);
+    tmpt = tmpt.toFixed(3);
+    tmpl = tmpl.toFixed(3);
+    console.log(tmpt, tmpl);
+    $('#btn'+i).css('top', tmpt+'vh');
+    $('#btn'+i).css('left', tmpl+'vw');
+    $('#btn'+i).on('click',()=>{showTeam(i)});
+}
