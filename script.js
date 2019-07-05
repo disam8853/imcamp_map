@@ -85,9 +85,35 @@ if(now > endTime) now = endTime;
 var po = (now - startTime)/(endTime - startTime);
 var r = 4;
 
+var teamTitle = [
+    '演算法講師',
+    '最強清潔員',
+    '宅界大賢者',
+    '管理學教授',
+    '被犧牲大腿',
+    '管院交際花',
+    '普通的教授',
+    '愛演講校友',
+    '老屁股學長',
+    '系辦大魔王'
+]
+var enTeamTitle = [
+    'Algorithm Lawyer',
+    'Superb Cleaner',
+    'The Sage in 2D',
+    'Sweetest Potato',
+    'Sacrificed Ham',
+    'Others\' Best Friend',
+    'Ordinary Professor',
+    'Talktive Sponsor',
+    'Detention',
+    'Department of the Great Devil'
+]
 function showTeam(i) {
     if(now >= endTime){
         $('.teamimg').attr('src', 'img/teams/Team'+i+'s.png');
+        $('#title').html(teamTitle[i-1]);
+        $('#entitle').html(enTeamTitle[i-1]);
     }else{
         $('.teamimg').attr('src', 'img/teams/Team'+i+'.png');
     }
