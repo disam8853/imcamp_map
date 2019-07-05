@@ -106,7 +106,7 @@ var enTeamTitle = [
     'Others\' Best Friend',
     'Ordinary Professor',
     'Talktive Sponsor',
-    'Detention',
+    'The Stationary Front',
     'Department of the Great Devil'
 ]
 function showTeam(i) {
